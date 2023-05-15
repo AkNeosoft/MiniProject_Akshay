@@ -9,277 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <title>Travel Blog From India</title>
-    <style>
-        *{
-    margin: 0px;
-    padding: 0px;
-}
-#index{
-    background-color:lightgray;
-    
-}
-.navbar{
-    background-color: white;
-    display: flex;
-   justify-content: space-between;
-   align-items: center;
-   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    
-}
-.navbar ul{
-    padding: 20px;
-    display: flex;
-    
-}
-.navbar li{
-    list-style-type: none;
-    padding: 20px;
-}
-.navbar a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    padding: 7px;
-}
-.navbar a:hover{
-    border-bottom: 2px solid red;
-    color: royalblue;
-}
-.heading{
-    font-size: 40px;
-    color: aquamarine;
-    font-family: cursive;
-    padding-left: 10px;
-    position: relative;
-    margin: 10px;
-}
-        #div1{
-            width: 1300px;
-            
-            display: flex;
-            flex-direction: row;
-            
-            
-        }
-        #div2{
-            width: 1300px;
-            
-            display: flex;
-            flex-direction: row;
-            
-            
-        }
-        #img1{
-            height: 200px;
-            display: inline-block;
-            margin: 30px 0px 20px 90px;
-            
-            
-        }
-        #img2{
-            height: 200px;
-            display: inline-block;
-            margin: 30px 0px 10px 30px;
-        }
-        #img3{
-            height: 200px;
-            display: inline-block;
-            margin: 30px 0px 20px 30px;
-        }
-        #img4{
-            height: 200px;
-            display: inline-block;
-            margin: 30px 10px 20px 90px;
-        }
-        #img5{
-            height: 200px;
-            display: inline-block;
-            margin: 30px 10px 20px 12px;
-        }
-        #img6{
-            height: 200px;
-            display: inline-block;
-            margin: 30px 10px 20px 12px;
-        }
-        #img7{
-            height: 200px;
-            display: inline-block;
-            margin: 30px 0px 20px 12px;
-        }
-        .dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 20px;    
-  border: none;
-  outline: none;
-  color: black;
-  background-color: inherit;
-  font-family: inherit;
-  
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 130px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  font-size: 15px;
-}
-
-.topnav a:hover, .dropdown:hover .dropbtn {
-    border-bottom: 2px solid red;
-    color: royalblue;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-#footer{
-    width: auto;
-    height: 400px;
-    background-color: black;
-}
-.footer-logo{
-    display: block;
-    padding-left: 500px;
-    padding-top: 60px;
-    position: relative;
-}
-.text-footer{
-    color: white;
-    text-align: center;
-    font-family: 'Open Sans','Open Sans Regular',sans-serif;
-}
-#icon{
-    display: flex;
-    list-style: none;
-    margin-left: 500px;
-}
-.fa-facebook {  
-  background: #3B5998;  
-  color: white;  
-  padding: 20px;
-  text-align: center;
-  margin: 6px 6px;
-  font-size: 20px;
-  width: 15px;
-  border-radius: 10px;
-}  
-.fa-twitter {  
-  background: #55ACEE;  
-  color: white;  
-  padding: 20px;
-text-align: center;
-  margin: 6px 6px;
-  font-size: 20px;
-  width: 15px;
-  border-radius: 10px;
-}  
-.fa-pinterest {  
-  background: #cb2027;  
-  color: white;  
-  padding: 20px;
-text-align: center;
-  margin: 6px 6px;
-  font-size: 20px;
-  width: 15px;
-  border-radius: 10px;
-}  
-.fa-instagram {  
-  background: red;  
-  color: white;  
-  padding: 20px;
-  text-align: center;
-  margin: 6px 6px;
-  font-size: 20px;
-  width: 15px;
-  border-radius: 10px;
-}
-#a1:hover{
-    transform: scale(1.1);
-}
-.btn {
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: black;
-  color: white;
-  border: none;
-  font-size: 20px;
-  line-height: 26px;
-    font-weight: 700;
-  background: transparent;
-}
-.btn1 {
-  position: absolute;
-  top: 50%;
-  left: 49%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: black;
-  color: white;
-  border: none;
-  font-size: 20px;
-  line-height: 26px;
-    font-weight: 700;
-  background: transparent;
-}
-.btn2 {
-  position: absolute;
-  top: 50%;
-  left: 77%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: black;
-  color: white;
-  border: none;
-  font-size: 20px;
-  line-height: 26px;
-    font-weight: 700;
-  background: transparent;
-}
-.btn4 {
-  position: absolute;
-  top: 85%;
-  left: 16%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: black;
-  color: white;
-  border: none;
-  font-size: 15px;
-  line-height: 26px;
-    font-weight: 700;
-  background: transparent;
-}
-    </style>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <header>
     <section id="index">
         <nav class="navbar">
             <h1 class="heading">
-                <img src="../Images/logo.png" style="background: transparent;">
+                <a href="index.html">
+                <img src="Images/logo.png">
+                </a>
             </h1>
             <ul>
                 
@@ -294,9 +32,9 @@ text-align: center;
                     </div>
                   </div> 
                 </li>
-                <li><a href="../HTML/Video.html">Video</a></li>
+                <li><a href="Video.html">Video</a></li>
                 <li><a href="education.html">Travalia</a></li>
-                <li><a href="#index.html">About Us</a></li>
+                <li><a href="index.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
                 <li><a><i class="fa fa-fw fa-search"></i></a></li>
             </ul>
@@ -307,39 +45,41 @@ text-align: center;
     <section>
         <div id="div1 ">    
             <figure id="img1">
-                <img src="../Images/1st image.jpg" id="a1">
+                <img src="Images/1st image.jpg" id="a1">
+                <a href="Informationpage1.html">
                 <button class="btn">Guide To Madhubani Paintings <br> From Mithila, Bihar</button>
+                </a>
             </figure>
             <figure id="img2">
-                <img src="../Images/2nd image.jpg" id="a1">
+                <img src="Images/2nd image.jpg" id="a1">
                 <button class="btn1">Best Ferry Rides Around The <br> World and India</button>
                 
             </figure>
             <figure id="img3">
-                <img src="../Images/6th image.jpg" id="a1">
+                <img src="Images/6th image.jpg" id="a1">
                 <button class="btn2">Kondapalli Toys And Fort On<br> Krishna River Banks</button>
             </figure>
         </div>
         <div id="div2">    
             <figure id="img4">
-                <img src="../Images/4th image.jpg" id="a1">
+                <img src="Images/4th image.jpg" id="a1">
                 <button class="btn4">ANCIENT SHIVA TEMPLES OF<br> UDUPI</button>
             </figure>
             <figure id="img5">
-                <img src="../Images/3rd image.jpg" id="a1">
+                <img src="Images/3rd image.jpg" id="a1">
             </figure>
             <figure id="img6">
-                <img src="../Images/image8.jpg" id="a1">
+                <img src="Images/image8.jpg" id="a1">
             </figure>
             <figure id="img7">
-                <img src="../Images/Image7.jpg" id="a1">
+                <img src="Images/Image7.jpg" id="a1">
             </figure>
         </div>
     </section>
 </body>
     <footer id="footer">
         <h1 class="footer-logo">
-            <img src="../Images/logo.png">
+            <img src="Images/logo.png">
         </h1>
         <p class="text-footer">
             An award-winning travel blog from India covering Indian & International tourism destinations. We love admiring the art,<br>
