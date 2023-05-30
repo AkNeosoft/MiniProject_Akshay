@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\AssignMent1_pharma\bin\Debug\net6.0\AssignMent1_pharma.exe
+C:\Users\User\Desktop\AssignMent1_pharma\bin\Debug\net6.0\AssignMent1_pharma.deps.json
+C:\Users\User\Desktop\AssignMent1_pharma\bin\Debug\net6.0\AssignMent1_pharma.runtimeconfig.json
+C:\Users\User\Desktop\AssignMent1_pharma\bin\Debug\net6.0\AssignMent1_pharma.dll
+C:\Users\User\Desktop\AssignMent1_pharma\bin\Debug\net6.0\AssignMent1_pharma.pdb
+C:\Users\User\Desktop\AssignMent1_pharma\obj\Debug\net6.0\AssignMent1_pharma.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\AssignMent1_pharma\obj\Debug\net6.0\AssignMent1_pharma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\AssignMent1_pharma\obj\Debug\net6.0\AssignMent1_pharma.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\AssignMent1_pharma\obj\Debug\net6.0\AssignMent1_pharma.AssemblyInfo.cs
+C:\Users\User\Desktop\AssignMent1_pharma\obj\Debug\net6.0\AssignMent1_pharma.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AssignMent1_pharma\obj\Debug\net6.0\AssignMent1_pharma.dll
+C:\Users\User\Desktop\AssignMent1_pharma\obj\Debug\net6.0\refint\AssignMent1_pharma.dll
+C:\Users\User\Desktop\AssignMent1_pharma\obj\Debug\net6.0\AssignMent1_pharma.pdb
+C:\Users\User\Desktop\AssignMent1_pharma\obj\Debug\net6.0\AssignMent1_pharma.genruntimeconfig.cache
+C:\Users\User\Desktop\AssignMent1_pharma\obj\Debug\net6.0\ref\AssignMent1_pharma.dll
