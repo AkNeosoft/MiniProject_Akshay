@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Session5_JWT.props" />
+</Project>
