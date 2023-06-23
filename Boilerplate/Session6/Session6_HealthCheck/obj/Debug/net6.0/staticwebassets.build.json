@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VQ7qvmElVcmJ/xUnYjdXvglkfrxfzZoVoq1IimN5qHg=",
+  "Source": "Session6_HealthCheck",
+  "BasePath": "_content/Session6_HealthCheck",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
